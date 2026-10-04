@@ -1,0 +1,29 @@
+body {
+    background-color: aqua;
+    color:blue;
+    font-family: sans-serif;
+
+}
+
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color:black; 
+}
+
+a:link {
+    color:black
+}
+
+a:hover {
+    color:blueviolet
+}
+
+.section-title {
+    color: black;
+}
+
+#main-title { 
+    color:black;
+}
+
