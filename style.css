@@ -1,12 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: pink;
+    background-image: url("images/camera.png");
+    background-repeat: repeat;
+    background-size: 500px;
 }
 
+
 header {
-    background-color: #333;
-    color: white;
+    background-color: black; 
+    color: white; 
     text-align: center;
     padding: 35px;
 }
@@ -15,28 +19,48 @@ h1 {
     margin: 0;
 }
 
-.navigator {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin: 40px auto;
-}
 
 .navigator a {
     display: block;
     background-color: white;
-    color: #333;
-    text-decoration: none;
+    color: black;               
     text-align: center;
     padding: 30px 45px;
     width: 150px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 8px;
     font-size: 18px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
 .navigator a:hover {
-    background-color: #333;
+    background-color: black;
     color: white;
+
 }
+
+h1 {
+
+    margin-bottom: 25px;
+
+}
+
+h2 {
+
+    margin-top: 30px;
+
+    margin-bottom: 10px;
+
+}
+
+p {
+
+    margin-bottom: 20px;
+
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+    
